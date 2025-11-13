@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malandro Fitness</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Menú superior -->
+    <header>
+        <nav>
+            <div class="logo">MALANDRO FITNESS</div>
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#frases">Frases</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Portada -->
+    <section id="inicio" class="portada">
+        <div class="foto-fondo">
+            <img src="malandro.jpg" alt="Malandro">
+        </div>
+        <div class="texto-portada">
+            <h1>"Clase no es ropa cara, es cómo caminás por la vida."</h1>
+            <h2>Disciplina, respeto y fuerza.</h2>
+            <button class="boton">ENTRENA CON CORAZON</button>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section id="galeria" class="galeria">
+        <h2 class="titulo">Galería del Gym</h2>
+        <div class="imagenes">
+            <div class="tarjeta">
+                <img src="fuerzaa.jpg" alt="Fuerza">
+                <div class="info">
+                    <h3>💪 Fuerza</h3>
+                    <p>El verdadero poder nace del esfuerzo diario</p>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="david.jpg" alt="Disciplina">
+                <div class="info">
+                    <h3>🏋️ Disciplina</h3>
+                    <p>Cada repetición es un paso hacia la grandeza</p>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="kevin.jpg" alt="Energía">
+                <div class="info">
+                    <h3>⚡ Energía</h3>
+                    <p>La actitud es más fuerte que el músculo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Frases -->
+    <section id="frases" class="frases">
+        <h2 class="titulo">Palabras de el Mala</h2>
+        <div class="lista-frases">
+            <div class="frase">
+                <p>Mientras vos hablás, yo entreno.</p>
+            </div>
+            <div class="frase">
+                <p>De los golpes también se forja el carácter.</p>
+            </div>
+            <div class="frase">
+                <p>Mi fuerza no está en los músculos, está en la mente.</p>
+            </div>
+            <div class="frase">
+                <p>Yo no compito, yo enseño respeto.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
+        <h3>¿Querés entrenar con corazón?</h3>
+        <p>Escribinos y uno de nuestros coaches te asesora personalmente.</p>
+        <div class="botones">
+            <a href="https://wa.me/qr/QJAC6J7KJOEVC1" target="_blank">📱 WhatsApp</a>
+            <a href="#" target="_blank">💬 Chat Directo</a>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2025 Malandro Fitness – Inspirado en "Un Señor"</p>
+    </footer>
+
+    <!-- Botones de música -->
+    <div class="musica">
+        <button id="play">🎵</button>
+        <button id="pause">⏸️</button>
+        <button id="siguiente">⏭️</button>
+    </div>
+
+    <audio id="audio"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
