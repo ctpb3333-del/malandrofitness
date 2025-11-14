@@ -10,8 +10,8 @@ const siguiente = document.getElementById('siguiente');
 // Lista de canciones
 const canciones = [
     "Amor_de_vago.mp3",
-    "musica/Un_senor.mp3",
-    "musica/Bla.mp3"
+    "Un_senor.mp3",
+    "Bla.mp3"
 ];
 
 let indice = 0; // Número de canción actual
@@ -89,4 +89,5 @@ const boton = document.querySelector('.boton');
 boton.addEventListener('click', function() {
     document.querySelector('#contacto').scrollIntoView({ behavior: 'smooth' });
 });
+
 
