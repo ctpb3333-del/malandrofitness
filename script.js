@@ -9,8 +9,8 @@ const siguiente = document.getElementById('siguiente');
 
 // Lista de canciones
 const canciones = [
-    "musica/Amor de vago.mp3",
-    "musica/Un señor.mp3",
+    "Amor_de_vago.mp3",
+    "musica/Un_senor.mp3",
     "musica/Bla.mp3"
 ];
 
@@ -89,3 +89,4 @@ const boton = document.querySelector('.boton');
 boton.addEventListener('click', function() {
     document.querySelector('#contacto').scrollIntoView({ behavior: 'smooth' });
 });
+
